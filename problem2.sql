@@ -1,3 +1,3 @@
 SELECT * FROM employee
-WHERE first_name = 'Alexa'
-   OR last_name = 'Smith';
+WHERE salary > 100000 
+   OR salary < 50000;

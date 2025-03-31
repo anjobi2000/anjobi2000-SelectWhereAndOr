@@ -1,2 +1,3 @@
 SELECT * FROM employee
-WHERE id NOT IN (1, 2, 3);
+WHERE salary > 50000
+AND first_name  NOT IN ('Steve');
